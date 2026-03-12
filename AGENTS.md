@@ -14,20 +14,10 @@
 All builds use the Unreal Build Tool via command line or IDE:
 
 ```bash
-# Development Build (Editor)
-UnrealBuildTool.exe UnrealSwordEditor Development Win64 -Project="D:\UnrealSword\UnrealSword.uproject"
-
-# Development Build (Game/Runtime)
-UnrealBuildTool.exe UnrealSword Development Win64 -Project="D:\UnrealSword\UnrealSword.uproject"
-
-# Shipping Build
-UnrealBuildTool.exe UnrealSword Shipping Win64 -Project="D:\UnrealSword\UnrealSword.uproject"
-
-# Cook content (for shipping)
-UE4Editor-Cmd.exe UnrealSword -cook
-
-# Compile Shader
-UnrealBuildTool.exe -Compile D:\UnrealSword\UnrealSword.uproject
+# Build Project
+set ENGINE_PATH="C:/Program Files/Epic Games/UE_5.7"
+set PROJECT_FILE="D:/UnrealSword/UnrealSword.uproject"
+"%ENGINE_PATH%/Engine/Build/BatchFiles/RunUAT.bat" BuildCookRun -nop4 -utf8output -project=%PROJECT_FILE% -target=UnrealSword -unrealexe="%ENGINE_PATH%/Engine/Binaries/Win64/UnrealEditor.exe" -platform=WIN64 -build -clientconfig=Development -specifiedarchitecture=x64
 ```
 
 ### Using UE Editor

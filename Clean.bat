@@ -9,5 +9,8 @@ rmdir /s /q "Plugins/UnrealClaude/UnrealClaude/Intermediate" >nul 2>&1
 rmdir /s /q "Plugins/UnrealGenAISupport/Binaries" >nul 2>&1
 rmdir /s /q "Plugins/UnrealGenAISupport/Intermediate" >nul 2>&1
 
+rmdir /s /q "Plugins/CharacterGen/Binaries" >nul 2>&1
+rmdir /s /q "Plugins/CharacterGen/Intermediate" >nul 2>&1
+
 echo Delete Binaries and Intermediate finished
 pause

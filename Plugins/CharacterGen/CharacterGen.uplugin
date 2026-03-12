@@ -1,0 +1,55 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "CharacterGen",
+	"Description": "AI-powered character generation from images to Metahuman skeletal meshes",
+	"Category": "ArtificialIntelligence",
+	"CreatedBy": "UnrealSword",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CharacterGen",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"HTTP",
+				"Json",
+				"JsonUtilities",
+				"GeometryFramework",
+				"AnimationCore",
+				"AnimGraphRuntime"
+			]
+		},
+		{
+			"Name": "CharacterGenLoader",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [
+				"Core",
+				"CoreUObject",
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GenerativeAISupport",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "MetaHumanPlugin",
+			"Enabled": false,
+			"Optional": true
+		}
+	]
+}

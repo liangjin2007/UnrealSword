@@ -1,0 +1,32 @@
+# CharacterGen Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 3D mesh processing
+trimesh>=3.23.0
+pyrender>=0.1.43
+
+# Image processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# PyTorch (CUDA version recommended)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# TRELLIS2 dependencies
+# See: https://github.com/microsoft/TRELLIS.2
+# Some dependencies are installed via TRELLIS2 setup script
+
+# Hunyuan3D-Part dependencies
+# See: https://github.com/Tencent-Hunyuan/Hunyuan3D-Part
+
+# Optional: For rendering
+matplotlib>=3.7.0
+imageio>=2.31.0
+
+# Optional: For face detection (alternative to OpenCV DNN)
+mediapipe>=0.10.0
