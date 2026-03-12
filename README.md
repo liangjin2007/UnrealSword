@@ -2,7 +2,7 @@
 
 Try to create a Sword world of fantasy and mystery based on techniques.
 
-The explore order:
+The exploring order:
 
 - AI LLM prompt
 - AI coding plan(To write blueprint, c++, etc)
