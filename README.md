@@ -11,3 +11,4 @@ The exploring order:
 - UE side modules, plugins, workflows, etc.
 - Other DCC tools
 
+## How to create a AI designed 3d Character
