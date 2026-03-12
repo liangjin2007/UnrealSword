@@ -1,6 +1,6 @@
-[submodule "UnrealSword/Plugins/UnrealClaude"]
-	path = UnrealSword/Plugins/UnrealClaude
+[submodule "Plugins/UnrealClaude"]
+	path = Plugins/UnrealClaude
 	url = https://github.com/Natfii/UnrealClaude.git
-[submodule "UnrealSword/Plugins/UnrealGenAISupport"]
-	path = UnrealSword/Plugins/UnrealGenAISupport
+[submodule "Plugins/UnrealGenAISupport"]
+	path = Plugins/UnrealGenAISupport
 	url = https://github.com/prajwalshettydev/UnrealGenAISupport.git
